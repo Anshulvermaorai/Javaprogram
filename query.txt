@@ -1,0 +1,18 @@
+CREATE DATABASE demo;
+	use demo;
+	CREATE TABLE Movies (
+	    MovieId integer,
+	    MovieName varchar(255),
+	    LeadActor varchar(255),
+	    LeadActress varchar(255),
+	    Director varchar(255),
+	    ReleaseDate datetime
+	);
+
+	insert into Movies 
+	values(1,'Gabbar Is Back','Akshay Kumar','Shruti Hasan','Krish',01-05-2015);
+	insert into Movies 
+	values(2,'Bhuj','Ajay Devgan','Sonakshi Sinha','Abhishek Dudhaiya',13-08-2021);
+	insert into Movies 
+	values(3,'Krrish','Hrithik Roshan','Priyanka Chopra','Rakesh Roshan',23-06-2006);insert into Movies 
+	values(4,'Shershaah','Siddharth Malhotra','Kiara Adwani','Vishnuvardhan',12-08-2021);
