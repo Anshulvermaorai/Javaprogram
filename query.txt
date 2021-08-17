@@ -10,9 +10,9 @@ CREATE DATABASE demo;
 	);
 
 	insert into Movies 
-	values(1,'Gabbar Is Back','Akshay Kumar','Shruti Hasan','Krish',01-05-2015);
+	values(1,'Gabbar Is Back','Akshay Kumar','Shruti Hasan','Krish',2015-05-01);
 	insert into Movies 
-	values(2,'Bhuj','Ajay Devgan','Sonakshi Sinha','Abhishek Dudhaiya',13-08-2021);
+	values(2,'Bhuj','Ajay Devgan','Sonakshi Sinha','Abhishek Dudhaiya',2020-08-13);
 	insert into Movies 
-	values(3,'Krrish','Hrithik Roshan','Priyanka Chopra','Rakesh Roshan',23-06-2006);insert into Movies 
-	values(4,'Shershaah','Siddharth Malhotra','Kiara Adwani','Vishnuvardhan',12-08-2021);
+	values(3,'Krrish','Hrithik Roshan','Priyanka Chopra','Rakesh Roshan',2006-06-23);insert into Movies 
+	values(4,'Shershaah','Siddharth Malhotra','Kiara Adwani','Vishnuvardhan',2021-08-12);
